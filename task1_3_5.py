@@ -1,0 +1,6 @@
+n1 = input("Введите 1 строку:")
+n2 = input("Введите 2 строку:")
+n1 = int(n1,2)
+n2 = int(n2,2)
+result = bin(n1 * n2)
+print(result)
